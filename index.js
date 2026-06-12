@@ -626,49 +626,49 @@ updateMaxBots() {
     const hours = now.getHours();
 
     if (hours < 1) {
-        this.state.maxConcurrentBots = 22;
+        this.state.maxConcurrentBots = 65;
     } else if (hours < 2) {
-        this.state.maxConcurrentBots = 19;
+        this.state.maxConcurrentBots = 58;
     } else if (hours < 5) {
-        this.state.maxConcurrentBots = 14;
-    } else if (hours < 6) {
-        this.state.maxConcurrentBots = 12;
-    } else if (hours < 7) {
-        this.state.maxConcurrentBots = 9;
-    } else if (hours < 8) {
-        this.state.maxConcurrentBots = 16;
-    } else if (hours < 9) {
-        this.state.maxConcurrentBots = 15;
-    } else if (hours < 10) {
-        this.state.maxConcurrentBots = 20;
-    } else if (hours < 11) {
-        this.state.maxConcurrentBots = 22;
-    } else if (hours < 12) {
-        this.state.maxConcurrentBots = 34;
-    } else if (hours < 13) {
-        this.state.maxConcurrentBots = 39;
-    } else if (hours < 14) {
         this.state.maxConcurrentBots = 45;
-    } else if (hours < 15) {
-        this.state.maxConcurrentBots = 39;
-    } else if (hours < 16) {
-        this.state.maxConcurrentBots = 40;
-    } else if (hours < 17) {
+    } else if (hours < 6) {
         this.state.maxConcurrentBots = 38;
-    } else if (hours < 18) {
+    } else if (hours < 7) {
         this.state.maxConcurrentBots = 32;
+    } else if (hours < 8) {
+        this.state.maxConcurrentBots = 50;
+    } else if (hours < 9) {
+        this.state.maxConcurrentBots = 55;
+    } else if (hours < 10) {
+        this.state.maxConcurrentBots = 70;
+    } else if (hours < 11) {
+        this.state.maxConcurrentBots = 85;
+    } else if (hours < 12) {
+        this.state.maxConcurrentBots = 110;
+    } else if (hours < 13) {
+        this.state.maxConcurrentBots = 130;
+    } else if (hours < 14) {
+        this.state.maxConcurrentBots = 150;
+    } else if (hours < 15) {
+        this.state.maxConcurrentBots = 140;
+    } else if (hours < 16) {
+        this.state.maxConcurrentBots = 145;
+    } else if (hours < 17) {
+        this.state.maxConcurrentBots = 135;
+    } else if (hours < 18) {
+        this.state.maxConcurrentBots = 120;
     } else if (hours < 19) {
-        this.state.maxConcurrentBots = 29;
+        this.state.maxConcurrentBots = 115;
     } else if (hours < 20) {
-        this.state.maxConcurrentBots = 24;
+        this.state.maxConcurrentBots = 105;
     } else if (hours < 21) {
-        this.state.maxConcurrentBots = 19;
+        this.state.maxConcurrentBots = 90;
     } else if (hours < 22) {
-        this.state.maxConcurrentBots = 10;
+        this.state.maxConcurrentBots = 75;
     } else if (hours < 23) {
-        this.state.maxConcurrentBots = 8;
+        this.state.maxConcurrentBots = 60;
     } else {
-        this.state.maxConcurrentBots = 22;
+        this.state.maxConcurrentBots = 65;
     }
 
     console.log(`Лимит ботов: ${this.state.maxConcurrentBots}`);
